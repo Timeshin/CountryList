@@ -5,7 +5,6 @@ const Home = async () => {
     cache: 'force-cache'
   })
   .then((result) => result.json())
-  .catch((error) => console.error(error));
 
   return (
     <div>
